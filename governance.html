@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@apecoin" />
+    <meta name="twitter:creator" content="@apecoin" />
+    <meta property="og:url" content="https://apecoin.com" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://apecoindemo.netlify.app/assets/share.jpg"
+    />
+    <meta property="og:image:alt" content="ApeCoin" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="ApeCoin" />
+    <meta name="theme-color" content="#000000" />
+    <title>ApeCoin DAO Governance</title>
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="Guidelines for ApeCoin DAO membership, proposals, and voting."
+    />
+    <meta property="og:title" content="ApeCoin DAO Governance" />
+    <meta
+      property="og:description"
+      content="Guidelines for ApeCoin DAO membership, proposals, and voting."
+    />
+    <meta name="next-head-count" content="19" />
+    <link
+      rel="preload"
+      href="/_next/static/css/da2736187cc2e9e1.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/da2736187cc2e9e1.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="/_next/static/css/9a07929828de4d0b.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/9a07929828de4d0b.css"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-434fefa8f39d8fbc.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-5f4595e5518b5600.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-a054bbf31fb90f6a.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-ab6049f042ffc08a.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/515-ac8cf8dbdcb8abba.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/governance-60ceb215674efc97.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_ssgManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_middlewareManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body>
+    <div id="__next" data-reactroot="">
+      <video
+        autoplay=""
+        muted=""
+        playsinline=""
+        loop=""
+        class="pointer-events-none fixed top-0 left-0 -z-20 h-screen w-full object-contain"
+      >
+        <source src="/assets/videos/wen.webm" type="video/webm" />
+        <source src="/assets/videos/wen.mp4" type="video/mp4" />
+      </video>
+      <div
+        class="pointer-events-none fixed top-0 left-0 -z-10 h-screen w-full bg-black/75 backdrop-blur transition-opacity duration-1000 opacity-1"
+      ></div>
+      <div id="__layout" style="opacity: 0">
+        <header class="sticky top-0 left-0 z-50 h-header w-full bg-dither">
+          <div
+            class="wrapper flex h-full items-center justify-between gap-x-gutter"
+          >
+            <a
+              class="z-50 -mt-[20px] flex h-nav items-center laptop:-mt-[1px]"
+              href="/"
+              ><img
+                src="/assets/wordmark.svg"
+                alt="ApeCoin"
+                class="w-[96px] laptop:w-[76px]"
+            /></a>
+            <div class="border-t laptop:flex-1">
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/about"
+                    ><span>About</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px] before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/governance"
+                    ><span>Governance</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/claim"
+                    ><span>Claim</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://snapshot.org/#/apecoin.eth"
+                    ><span>Proposals</span>
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 0.5H0M6.5 0.5V7M6.5 0.5L0.382353 6.61765"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://forum.apecoin.com"
+                    ><span>Discussion</span>
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 0.5H0M6.5 0.5V7M6.5 0.5L0.382353 6.61765"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative z-50 hidden flex-1 border-t text-xs uppercase laptop:block laptop:flex-[0_0_25%]"
+            >
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/exchanges"
+                    ><span>Buy/Sell</span>
+                    <!-- -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <main id="__main" style="opacity: 0">
+          <article
+            class="wrapper gap-x-gutter tablet:grid tablet:grid-cols-12 laptop:pt-xl"
+          >
+            <div
+              class="hidden tablet:col-span-4 tablet:block desktop:col-span-3"
+            >
+              <nav
+                aria-label="Table of Contents"
+                class="articles_toc_sidebar__F4fbz sticky top-header overflow-y-auto border-t border-white/10 pt-md"
+              >
+                <div class="mb-md text-xs font-semibold uppercase">
+                  Table of Contents
+                </div>
+                <ul class="toc">
+                  <li
+                    class="articles_counter__joUem articles_toc_counter__w0CT9 mt-sm flex items-center border-t border-white/10 py-xs"
+                  >
+                    <a
+                      href="#ape-coin-dao-governance"
+                      class="text-[14px] font-semibold uppercase"
+                      >ApeCoin DAO Governance</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#guiding-values"
+                      class="text-white/70 hover:text-white/90"
+                      >Guiding Values</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#communication-channels"
+                      class="text-white/70 hover:text-white/90"
+                      >Communication Channels</a
+                    >
+                  </li>
+                  <li
+                    class="articles_counter__joUem articles_toc_counter__w0CT9 mt-sm flex items-center border-t border-white/10 py-xs"
+                  >
+                    <a
+                      href="#proposal-process"
+                      class="text-[14px] font-semibold uppercase"
+                      >Proposal Process</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#proposal-categories"
+                      class="text-white/70 hover:text-white/90"
+                      >Proposal Categories</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#proposal-template"
+                      class="text-white/70 hover:text-white/90"
+                      >Proposal Template</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#proposal-phases"
+                      class="text-white/70 hover:text-white/90"
+                      >Proposal Phases</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#proposal-conflicts"
+                      class="text-white/70 hover:text-white/90"
+                      >Proposal Conflicts</a
+                    >
+                  </li>
+                  <li
+                    class="articles_counter__joUem articles_toc_counter__w0CT9 mt-sm flex items-center border-t border-white/10 py-xs"
+                  >
+                    <a
+                      href="#voting"
+                      class="text-[14px] font-semibold uppercase"
+                      >Voting</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#voting-mechanism"
+                      class="text-white/70 hover:text-white/90"
+                      >Voting Mechanism</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#voting-process"
+                      class="text-white/70 hover:text-white/90"
+                      >Voting Process</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#voting-delegation"
+                      class="text-white/70 hover:text-white/90"
+                      >Voting Delegation</a
+                    >
+                  </li>
+                  <li
+                    class="articles_counter__joUem articles_toc_counter__w0CT9 mt-sm flex items-center border-t border-white/10 py-xs"
+                  >
+                    <a
+                      href="#the-future-of-ape-coin-dao"
+                      class="text-[14px] font-semibold uppercase"
+                      >The Future of ApeCoin DAO</a
+                    >
+                  </li>
+                  <li
+                    class="articles_counter__joUem articles_toc_counter__w0CT9 mt-sm flex items-center border-t border-white/10 py-xs"
+                  >
+                    <a
+                      href="#reference"
+                      class="text-[14px] font-semibold uppercase"
+                      >Reference</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#ape-coin-dao-terminology"
+                      class="text-white/70 hover:text-white/90"
+                      >ApeCoin DAO Terminology</a
+                    >
+                  </li>
+                  <li
+                    class="articles_l_decorator__pJVL_ ml-[2.3334rem] mb-[0.25em] flex items-center text-[12px]"
+                  >
+                    <a
+                      href="#general-guidelines"
+                      class="text-white/70 hover:text-white/90"
+                      >General Guidelines</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="tablet:col-span-8 desktop:col-span-9">
+              <h1
+                id="ape-coin-dao-governance"
+                class="articles_section_counter__X8tln peer relative mb-sm mt-xl border-t border-white/10 pt-xl text-2xl font-bold uppercase first:mt-0 tablet:text-3xl"
+              >
+                <span
+                  class="articles_counter__joUem articles_section_counter_attach__eOkps relative max-w-2xl"
+                  >ApeCoin DAO Governance</span
+                >
+              </h1>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The ApeCoin community governs itself via the ApeCoin DAO, the
+                decentralized governance framework that supports the Ecosystem
+                Fund. The DAO follows a proposal process to vote on how the
+                Ecosystem Fund will be distributed by the APE Foundation to
+                promote a diverse and self-sustaining ecosystem.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                This governance guide is an overview of the proposal process.
+                It’s a living document that will evolve and improve with the DAO
+                community’s input.
+              </p>
+              <h3
+                id="membership"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Membership
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Participating in idea submission, commentary, proposal
+                submission, and voting is restricted to ApeCoin DAO members.
+                Holding ApeCoin is the only requirement for membership in the
+                DAO.
+              </p>
+              <h2
+                id="guiding-values"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Guiding Values</span
+                >
+              </h2>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  <strong>Boldness:</strong> We don’t shy away from the weird,
+                  the hard, or the new.
+                </li>
+                <li class="mb-xs">
+                  <strong>Equality:</strong> One APE equals one APE.
+                </li>
+                <li class="mb-xs">
+                  <strong>Transparency:</strong> Processes and decisions are
+                  shared openly with the community.
+                </li>
+                <li class="mb-xs">
+                  <strong>Collective Responsibility:</strong> We leave
+                  everything better than we found it.
+                </li>
+                <li class="mb-xs">
+                  <strong>Persistence:</strong> Success is an ouroboros, not a
+                  straight line.
+                </li>
+              </ul>
+              <h2
+                id="communication-channels"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Communication Channels</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The APE Foundation website is the DAO hub, providing an
+                interface to educate DAO members on the governance process and
+                provide easy access to the channels below in order to streamline
+                the DAO’s operation and enhance its utility.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                <strong>Discourse</strong> is the first stop for all proposals.
+                An AIP (Ape Improvement Proposal) Idea is submitted as a post in
+                Discourse and must receive confirmation from a moderator that it
+                complies with DAO-approved
+                <a href="#guidelines">guidelines</a> before it appears to the
+                community. ApeCoin holders must go through a wallet
+                authentication process to post ideas or give feedback to ideas
+                via comments.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                <strong>Snapshot</strong> is used for voting. Proposal drafts
+                that have passed their respective approval processes become
+                available for voting on Snapshot. ApeCoin holders must go
+                through a wallet authentication process to vote.
+              </p>
+              <h1
+                id="proposal-process"
+                class="articles_section_counter__X8tln peer relative mb-sm mt-xl border-t border-white/10 pt-xl text-2xl font-bold uppercase first:mt-0 tablet:text-3xl"
+              >
+                <span
+                  class="articles_counter__joUem articles_section_counter_attach__eOkps relative max-w-2xl"
+                  >Proposal Process</span
+                >
+              </h1>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                ApeCoin DAO is launching its community-led governance via a
+                formal proposal process based on the one implemented and proven
+                out over time by Ethereum’s EIP system.
+              </p>
+              <h2
+                id="proposal-categories"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Proposal Categories</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                There are three main categories an AIP (Ape Improvement
+                Proposal) can fall under: Core, Process, or Informational. Core
+                proposals have two subcategories, Brand Decision and Ecosystem
+                Fund Allocation. Proposals that are being resubmitted must be
+                classified as such.
+              </p>
+              <h3
+                id="core-ecosystem-fund-allocation"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Core: Ecosystem Fund Allocation
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Proposals for how DAO funds should be utilized.
+              </p>
+              <h3
+                id="core-ecosystem-fund-allocation-resubmission"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Core: Ecosystem Fund Allocation (Resubmission)
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Resubmitted proposals for how DAO funds should be utilized.
+              </p>
+              <h3
+                id="core-brand-decision"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Core: Brand Decision
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Proposals for anything the DAO attaches its name to, including
+                projects and collaborations.
+              </p>
+              <h3
+                id="core-brand-decision-resubmission"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Core: Brand Decision (Resubmission)
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Resubmitted proposals for anything the DAO attaches its name to,
+                including projects and collaborations.
+              </p>
+              <h3
+                id="process"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Process
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Proposals for making a change to a process or implementation.
+                Examples include procedures, guidelines, changes to the
+                decision-making process, and changes to the tools or environment
+                of the DAO or Foundation.
+              </p>
+              <h3
+                id="process-resubmission"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Process (Resubmission)
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Resubmitted proposals for making a change to a process or
+                implementation. Examples include procedures, guidelines, changes
+                to the decision-making process, and changes to the tools or
+                environment of the DAO or Foundation.
+              </p>
+              <h3
+                id="informational"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Informational
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Proposals for general guidelines or information for the
+                community.
+              </p>
+              <h3
+                id="informational-resubmission"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Informational (Resubmission)
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Resubmitted proposals for general guidelines or information for
+                the community.
+              </p>
+              <h2
+                id="proposal-template"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Proposal Template</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                A proposal typically includes:
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  <strong>Abstract</strong> - Two or three sentences that
+                  summarize the proposal.
+                </li>
+                <li class="mb-xs">
+                  <strong>Motivation</strong> - A statement on why the APE
+                  Community should implement the proposal.
+                </li>
+                <li class="mb-xs">
+                  <strong>Rationale</strong> - An explanation of how the
+                  proposal aligns with the APE Community’s mission and guiding
+                  values.
+                </li>
+                <li class="mb-xs">
+                  <strong>Key Terms (optional)</strong> - Definitions of any
+                  terms within the proposal that are unique to the proposal, new
+                  to the APE Community, and/or industry-specific.
+                </li>
+                <li class="mb-xs">
+                  <strong>Specifications</strong> - A detailed breakdown of the
+                  platforms and technologies that will be used.
+                </li>
+                <li class="mb-xs">
+                  <strong>Steps to Implement</strong> - The steps to implement
+                  the proposal, including associated costs, manpower, and other
+                  resources for each step where applicable.
+                </li>
+                <li class="mb-xs">
+                  <strong>Timeline</strong> - Relevant timing details, including
+                  but not limited to start date, milestones, and completion
+                  dates.
+                </li>
+                <li class="mb-xs">
+                  <strong>Overall Cost</strong> - The total cost to implement
+                  the proposal.
+                </li>
+              </ul>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The author can add additional fields to any template if
+                necessary to fully communicate the intentions, specifics, and
+                implications of the AIP Draft.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                <strong
+                  >Proposals that did not make it through the respective
+                  approval process and are being resubmitted should also
+                  include:</strong
+                >
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">Link to original proposal</li>
+                <li class="mb-xs">Reason it was not approved</li>
+                <li class="mb-xs">
+                  Changes that have been made and why it should now be approved
+                </li>
+              </ul>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The author can add additional fields to any template if
+                necessary to fully communicate the changes made and the
+                intentions, specifics, and implications of the resubmitted AIP
+                Draft.
+              </p>
+              <h2
+                id="proposal-phases"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Proposal Phases</span
+                >
+              </h2>
+              <h3
+                id="phase-1-aip-idea"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 1: AIP Idea
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                An AIP Idea is submitted as a post in Discourse and must receive
+                moderator confirmation that it complies with DAO-approved
+                guidelines before it appears to the community. The person or
+                people submitting the AIP Idea will be referred to as the author
+                or authors (please note that multiple members can work together
+                on an AIP idea, but it should be submitted only once). The AIP
+                idea informally gathers comments via Discourse for seven days.
+                The author cannot edit the original post — if the author wants
+                to propose changes to the original idea, they must do this via
+                the comments.
+              </p>
+              <h3
+                id="phase-2-aip-draft"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 2: AIP Draft
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Once the seven-day feedback window has passed and a moderator
+                closes the Discourse topic, a moderator will send the author the
+                proposal template and next steps for submission and voting. They
+                may also suggest a proposal category, if not already specified
+                in Discourse.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The author will fill out the template, incorporating any
+                Discourse feedback that helps the idea better serve the DAO. The
+                author can add additional fields to the template if necessary to
+                fully communicate the intentions, specifics, and implications of
+                the AIP Draft. The moderator may also inform the author of
+                incorrect or missing information that needs to be changed or
+                clarifications that need to be made. If the author does not
+                respond to those moderator requests within 30 days, the AIP
+                Draft will be automatically rejected.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                When the moderator confirms an AIP Draft complies with
+                DAO-approved guidelines, they assign a number to the AIP for
+                identification purposes throughout the rest of the process. From
+                this point on, the AIP is referred to as “AIP-#: (Name) -
+                (Category)”. For example the first AIP is “AIP-1: Proposing the
+                DAO - Process”.
+              </p>
+              <h3
+                id="phase-3-aip-analysis-report"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 3: AIP Analysis Report
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The AIP Draft is reviewed by a project management team engaged
+                by APE Foundation who will provide an AIP Analysis Report to
+                ensure costs, steps to implement, legal considerations,
+                third-party review requirements, potential conflicts of
+                interests, and any further implications have been identified.
+                Given that AIP authors may be submitting drafts with little to
+                no resources, this service for the DAO community ensures that
+                DAO members have enough information about proposals to make
+                informed decisions when voting.
+              </p>
+              <h3
+                id="phase-4-aip-moderation"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 4: AIP Moderation
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The AIP Draft + Analysis Report (DAR) Package is reviewed by a
+                team of moderators and either approved or not approved based on
+                whether it adheres to the DAO-approved guidelines. If approved,
+                it becomes a Pending AIP and moves to Phase 5. If not approved,
+                it is eligible for resubmission, except in cases of violation of
+                the law or reasonable suspicion of fraud or other misleading
+                information.
+              </p>
+              <h3
+                id="phase-5-post-moderation-tagging"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 5: Post-Moderation Tagging
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Pending AIPs that have passed AIP Moderation are tagged as
+                “Straight to Vote” or “Needs Administrative Review.”
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The “Straight to Vote” tag is given to a pending AIP whose
+                costs, content, and implications are considered straightforward
+                and of no risk to the well-being of the DAO. Any Pending AIP
+                that is tagged as “Straight to Vote” will skip to Phase 7.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                The “Needs Administrative Review” tag is given to a pending AIP
+                whose costs, content, or implications are considered complicated
+                or a potential risk to the well-being of the DAO. Any Pending
+                AIP that is tagged as “Needs Administrative Review” must go
+                through Phase 6.
+              </p>
+              <h3
+                id="phase-6-administrative-review"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 6: Administrative Review
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                For Pending AIPs that have been tagged with “Needs
+                Administrative Review,” the Board, serving in an administrative
+                capacity, will determine whether clarification or action is
+                required before moving a Pending AIP to Phase 7. If
+                clarification or action is not needed, the Pending AIP is tagged
+                as “Approved for Voting” and proceeds to Phase 7. If the Board
+                decides to return a Pending AIP for further clarification or
+                action, they must provide a clear explanation of why and tag it
+                as either “Return for Clarification” or “Return for
+                Reconstruction.”
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Reasons to tag as “Return for Clarification” may include but are
+                not limited to:
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  Cost to implement unclear/not able to be calculated
+                </li>
+                <li class="mb-xs">
+                  Would use more than 5% of the DAO treasury
+                </li>
+                <li class="mb-xs">Conflicts with another proposal</li>
+              </ul>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Reasons to tag as “Return for Reconstruction” may include but
+                are not limited to:
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  Proposal is at odds with the mission/values of the DAO
+                </li>
+                <li class="mb-xs">
+                  Proposal is at odds with the well-being of the DAO
+                </li>
+                <li class="mb-xs">
+                  Violations of law, or against advice of counsel for APE
+                  Foundation
+                </li>
+                <li class="mb-xs">
+                  Reasonable suspicion of fraud or other misleading information
+                </li>
+              </ul>
+              <h3
+                id="phase-7-live-aip"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 7: Live AIP
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Drafts that have passed their respective approval processes will
+                become Live AIPs on Snapshot during the next Weekly AIP Release,
+                which is when new AIPs are released in batches Thursdays at 9PM
+                ET. Once live on Snapshot, Live AIPs are open to voting until
+                Weekly Voting Close, which is at 9PM ET on the Wednesday
+                following their release. Moderators are the only ones that can
+                post AIPs to Snapshot because they must confirm that each one
+                has gone through the correct approvals process.
+              </p>
+              <h3
+                id="phase-8-final-aip"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 8: Final AIP
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                If a Live AIP has not gotten any votes or is tied by the Vote
+                Close Time, it will be tagged as “Stalled” and be eligible for
+                Resubmission. In all other cases, Live AIPs are moved to one of
+                two Final AIP categories. Rejected Final AIPs can be resubmitted
+                via the appropriate Resubmission Template if the author contacts
+                a moderator. Accepted Final AIPs move into Implementation.
+              </p>
+              <h3
+                id="phase-9-implementation"
+                class="mt-lg mb-sm w-full max-w-2xl border-t border-white/10 pt-md text-lg font-semibold uppercase"
+              >
+                Phase 9: Implementation
+              </h3>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                For Accepted Final AIPs, implementation will begin based on the
+                steps outlined in the AIP template. The project management team
+                engaged by the APE Foundation is responsible for making sure
+                this happens, but is not responsible for doing it themselves.
+              </p>
+              <h2
+                id="proposal-conflicts"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Proposal Conflicts</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                If a suggested proposal directly conflicts with a proposal that
+                is currently up for vote, the second proposal should not go for
+                a vote until a decision is made on the first proposal to avoid
+                approval of opposing requirements.
+              </p>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                A suggested proposal that directly conflicts with another
+                approved proposal cannot go to vote for three months after the
+                original proposal has been implemented to avoid wasting
+                community assets.
+              </p>
+              <h1
+                id="voting"
+                class="articles_section_counter__X8tln peer relative mb-sm mt-xl border-t border-white/10 pt-xl text-2xl font-bold uppercase first:mt-0 tablet:text-3xl"
+              >
+                <span
+                  class="articles_counter__joUem articles_section_counter_attach__eOkps relative max-w-2xl"
+                  >Voting</span
+                >
+              </h1>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                ApeCoin DAO’s consensus mechanism aims to make placing votes
+                fair, transparent, and low-cost, so that ApeCoin holders can
+                participate in the decision-making of the DAO.
+              </p>
+              <h2
+                id="voting-mechanism"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Voting Mechanism</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Snapshot was chosen as a voting tool that:
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">doesn’t require gas payment</li>
+                <li class="mb-xs">ensures transparency</li>
+                <li class="mb-xs">
+                  expands governance participation to all holders of ApeCoin
+                </li>
+              </ul>
+              <h2
+                id="voting-process"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Voting Process</span
+                >
+              </h2>
+              <ol class="mt-md mb-md w-full max-w-2xl list-decimal pl-md">
+                <li class="mb-xs">
+                  Moderators post AIPs to Snapshot after ensuring that each one
+                  has gone through the correct approvals process. New AIPs are
+                  posted every week on Thursday at 9PM ET. This is when the
+                  six-day voting window opens as well.
+                </li>
+                <li class="mb-xs">
+                  DAO members vote on Snapshot. One ApeCoin is equal to one
+                  vote. As votes cannot be divided into fractions and the total
+                  number of votes shouldn’t ever exceed the number of tokens
+                  minted, the number of votes will be rounded down if a
+                  fractional number of tokens is owned by the voter (i.e., 100.1
+                  tokens will result in 100 votes, and so will 100.9 tokens).
+                  The voting options for a Live AIP are “In favor” and
+                  “Against.” Voting “In favor” means the voter is in favor of
+                  implementing the AIP exactly as-is. Voting “Against” means the
+                  vote is against implementing the AIP exactly as-is — you may
+                  vote “Against” to encourage the author to resubmit the AIP
+                  after making changes.
+                </li>
+                <li class="mb-xs">
+                  The voting for each proposal in each weekly batch will be open
+                  for voting for six days, closing at 9PM ET on the following
+                  Wednesday.
+                </li>
+                <li class="mb-xs">
+                  Proposals that receive a majority “In favor” vote are moved
+                  into implementation. Proposals that are rejected will have the
+                  chance to be resubmitted via the appropriate Resubmission
+                  Template if the author contacts a moderator to initiate this
+                  process. If by the Vote Close Time the Live AIP has not gotten
+                  any votes or is tied, it will be tagged as “Stalled” and be
+                  eligible for Resubmission.
+                </li>
+              </ol>
+              <h2
+                id="voting-delegation"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->Voting Delegation</span
+                >
+              </h2>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                DAO members have the ability to delegate their vote.
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  DAO members can delegate their vote to another DAO member that
+                  they consider to be a trusted subject matter expert.
+                </li>
+                <li class="mb-xs">
+                  Voting delegation is the mechanism by which DAO members with
+                  tokens under initial lock-up will be able to vote.
+                </li>
+              </ul>
+              <h1
+                id="the-future-of-ape-coin-dao"
+                class="articles_section_counter__X8tln peer relative mb-sm mt-xl border-t border-white/10 pt-xl text-2xl font-bold uppercase first:mt-0 tablet:text-3xl"
+              >
+                <span
+                  class="articles_counter__joUem articles_section_counter_attach__eOkps relative max-w-2xl"
+                  >The Future of ApeCoin DAO</span
+                >
+              </h1>
+              <p class="mb-sm w-full max-w-2xl text-base">
+                Over time, ApeCoin DAO will transition the proposal and voting
+                mechanisms into a full, on-chain platform in a form determined
+                by the community. The DAO can do this by:
+              </p>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  Hiring DAO members to take care of administrative, project
+                  management, and moderation tasks to replace the company
+                  appointed
+                </li>
+                <li class="mb-xs">Creating a community-steering committee</li>
+                <li class="mb-xs">Implementing on-chain voting</li>
+                <li class="mb-xs">
+                  Voting annually to elect members for the DAO’s Board (the
+                  initial Board is in place for a shorter term of six months)
+                </li>
+              </ul>
+              <h1
+                id="reference"
+                class="articles_section_counter__X8tln peer relative mb-sm mt-xl border-t border-white/10 pt-xl text-2xl font-bold uppercase first:mt-0 tablet:text-3xl"
+              >
+                <span
+                  class="articles_counter__joUem articles_section_counter_attach__eOkps relative max-w-2xl"
+                  >Reference</span
+                >
+              </h1>
+              <h2
+                id="ape-coin-dao-terminology"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->ApeCoin DAO Terminology</span
+                >
+              </h2>
+              <ul class="mt-md mb-md w-full max-w-2xl list-disc pl-md">
+                <li class="mb-xs">
+                  <strong>AIP (APE Improvement Proposal)</strong> - a document
+                  proposing a new feature, project, activity, goal, piece of
+                  information, or change to any proposal that has already been
+                  implemented.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Idea</strong> - the first step in the process of
+                  creating an official AIP, which will be presented to the
+                  community for gathering informal feedback for a period of
+                  seven days.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Draft</strong> - the second step in the process of
+                  creating an official AIP, which can only be submitted after
+                  the original AIP idea has gathered feedback from the community
+                  for seven days in the proper channel. An AIP draft must be
+                  submitted directly to a moderator via predetermined AIP
+                  templates.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Template</strong> - the preset format for an AIP
+                  draft, which will vary slightly depending on the nature of the
+                  intended AIP.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Author</strong> - the DAO member responsible for
+                  beginning the APE Improvement Process, starting with
+                  presenting the idea to the community via the proper AIP idea
+                  process. The AIP author is responsible for incorporating
+                  relevant feedback, submitting the subsequent AIP draft via the
+                  proper AIP template to the moderator, and responding to
+                  questions or requests for clarifications from DAO members and
+                  moderators. Any ApeCoin holder can be an AIP author.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Categories</strong> - the predetermined
+                  classification system for organizing AIPs by their nature or
+                  intent. They are: Core Proposal, Ecosystem Fund Allocation
+                  Proposal (a subcategory of Core Proposal), Brand Decision
+                  Proposal (a subcategory of Core Proposal), Process Proposal,
+                  and Informational Proposal.
+                </li>
+                <li class="mb-xs">
+                  <strong>Core Proposal</strong> - a proposal that would be
+                  considered the main activities of the DAO, with subcategories
+                  that can be expanded on over time via proposal submission.
+                </li>
+                <li class="mb-xs">
+                  <strong>Ecosystem Fund Allocation Proposal</strong> - a
+                  proposal about how the Ecosystem Fund should be spent. A
+                  subcategory of Core Proposals.
+                </li>
+                <li class="mb-xs">
+                  <strong>Brand Decision Proposal</strong> - a proposal about to
+                  whom the community wants to attach its name. This is different
+                  from an Ecosystem Fund Allocation Proposal in that it can have
+                  associated costs to implement but is not at its core a
+                  proposal about Ecosystem Fund Allocation. A subcategory of
+                  Core Proposals.
+                </li>
+                <li class="mb-xs">
+                  <strong>Process Proposal</strong> - a proposal about making a
+                  change to a process or proposing an implementation. Examples
+                  include procedures, guidelines, changes to the decision-making
+                  process, and changes to the tools or environment of the DAO or
+                  Foundation.
+                </li>
+                <li class="mb-xs">
+                  <strong>Informational Proposal</strong> - a proposal that
+                  provides general guidelines or information to the community
+                  but does not propose a new feature.
+                </li>
+                <li class="mb-xs">
+                  <strong>Resubmission Proposal</strong> - a proposal that was
+                  previously submitted but did not pass either due to initial
+                  rejection by moderators or the Board, or by not passing a
+                  vote. All proposal categories have a special template for
+                  resubmission that the author must link to the original
+                  proposal, clearly state why it did not pass, and clearly
+                  explain how the resubmission is different.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Analysis Report</strong> - a report conducted by a
+                  project management team engaged by the APE Foundation to
+                  ensure that all costs, steps to implement, legal
+                  considerations, third-party review requirements, potential
+                  conflicts of interests, and any further implications have been
+                  properly considered and identified. This is considered to be a
+                  service for the community given that AIP authors will be
+                  submitting drafts with little to no resources.
+                </li>
+                <li class="mb-xs">
+                  <strong
+                    >APE Improvement Proposal Draft &amp; Analysis Report (AIP
+                    DAR Package)</strong
+                  >
+                  - both the AIP Draft (submitted by the author) and the AIP
+                  Analysis Report (submitted by the project management team
+                  engaged by the APE Foundation) should be defined as a package
+                  after the analysis report is conducted, as they should only be
+                  considered together from that point on.
+                </li>
+                <li class="mb-xs">
+                  <strong>AIP Moderation</strong> - the act of reviewing an AIP
+                  DAR Package to determine whether or not the AIP draft meets
+                  the predetermined and DAO-approved guidelines and therefore is
+                  eligible to move to the next step in the process. If an AIP
+                  DAR Package passes AIP Moderation, it becomes a Pending AIP.
+                </li>
+                <li class="mb-xs">
+                  <strong>Pending AIP</strong> - the AIP status after AIP DAR,
+                  which is only reached if it passes AIP Moderation.
+                </li>
+                <li class="mb-xs">
+                  <strong>Post-Moderation Tagging</strong> - the process of
+                  tagging all Pending AIPs that have successfully been through
+                  the AIP analysis report and AIP moderation phases. There are
+                  two tags given at this stage: 1) “Straight to Vote,” which is
+                  for any pending AIP where costs, content, and implications are
+                  considered to be straightforward and of no risk to the
+                  well-being of the DAO. 2) “Needs Administrative Review,” which
+                  is for any pending AIP with costs, content, or implications
+                  that are considered to be complicated or a potential risk to
+                  the well-being of the DAO and therefore must be reviewed by
+                  the Board of the DAO.
+                </li>
+                <li class="mb-xs">
+                  <strong>Administrative Review</strong> - the process of
+                  evaluating pending AIPs that have been tagged as “Needs
+                  Administrative Review” to determine whether they should be
+                  halted or sent to vote by the community.
+                </li>
+                <li class="mb-xs">
+                  <strong>Return for Clarification</strong> - a type of
+                  administrative classification that requires the AIP author to
+                  clarify certain information regarding the Pending AIP. This
+                  classification would be given in cases such as cost to
+                  implement being unclear, proposing to utilize a larger
+                  percentage of the Ecosystem Fund than is justified based on
+                  the value it would provide to the community, or being in
+                  direct conflict with an active AIP.
+                </li>
+                <li class="mb-xs">
+                  <strong>Return for Reconstruction</strong> - a type of
+                  administrative classification that requires the proposer to
+                  restart the proposal submission process because the Pending
+                  AIP violates DAO-approved requirements, or in cases of
+                  violation of the law, reasonable suspicion of fraud or other
+                  misleading information, or the pending AIP being at odds with
+                  the mission, values, or well-being of the Foundation or DAO.
+                </li>
+                <li class="mb-xs">
+                  <strong>Weekly AIP Release</strong> - every Thursday at 9PM
+                  ET, when all AIPs that are ready to go live are released
+                  together in a batch.
+                </li>
+                <li class="mb-xs">
+                  <strong>Weekly Voting Close</strong> - when all AIPs in a
+                  Weekly AIP Release batch close for voting, which happens the
+                  following Wednesday at 9PM ET.
+                </li>
+                <li class="mb-xs">
+                  <strong>Live AIP</strong> - an AIP that has passed all
+                  required approval stages and is launched for the community to
+                  vote on it. The voting options for a Live AIP are “In favor”
+                  and “Against.” Voting “In favor” means the voter is in favor
+                  of implementing the AIP exactly as-is. Voting “Against” means
+                  the voter is against implementing the AIP exactly as-is —
+                  voters may vote “Against” to encourage the author to resubmit
+                  the AIP after making changes.
+                </li>
+                <li class="mb-xs">
+                  <strong>Final AIP</strong> - an AIP that has completed the
+                  voting process. There are two subcategories here: Accepted and
+                  Rejected.
+                </li>
+                <li class="mb-xs">
+                  <strong>Implementation of Accepted AIP</strong> - the process
+                  of implementing an AIP that has been accepted by the community
+                  via a vote, based on the predetermined steps laid out in the
+                  Draft/Template and Analysis Report phases.
+                </li>
+              </ul>
+              <h2
+                id="general-guidelines"
+                class="mt-xl mb-sm max-w-2xl border-t border-white/10 pt-md text-xl font-black uppercase tablet:text-2xl"
+              >
+                <span class="articles_l_decorator__pJVL_">
+                  <!-- -->General Guidelines</span
+                >
+              </h2>
+              <ol class="mt-md mb-md w-full max-w-2xl list-decimal pl-md">
+                <li class="mb-xs">
+                  Every year, there is a DAO-wide vote to determine which DAO
+                  members will serve on a special council on the APE Foundation
+                  (the DAO’s “Board”). The purpose of the Board is to administer
+                  DAO proposals and serve the vision of the community. This
+                  initial Board will only serve six months.
+                </li>
+                <li class="mb-xs">
+                  A Board member may be removed and replaced prior to the term’s
+                  end pursuant to a majority vote of token holders.
+                </li>
+                <li class="mb-xs">
+                  The total cost of implementation must be clear in order for a
+                  proposal to go to vote.
+                </li>
+                <li class="mb-xs">
+                  DAO members must search past proposals to ensure any idea they
+                  intend to write a proposal for has not already been submitted.
+                </li>
+                <li class="mb-xs">
+                  If a suggested proposal directly conflicts with a proposal
+                  that is currently up for vote, the second proposal should not
+                  go for a vote until a decision is made on the first proposal
+                  to avoid approval of opposing requirements.
+                </li>
+                <li class="mb-xs">
+                  A suggested proposal that directly conflicts with another
+                  approved proposal cannot go to vote for three months after the
+                  original proposal has been implemented to avoid wasting
+                  community assets.
+                </li>
+                <li class="mb-xs">
+                  Proposals will not be put up for a vote if they involve
+                  illegal activity, hate speech, pornographic material, or are
+                  at odds with the mission or values of the APE Foundation.
+                </li>
+              </ol>
+            </div>
+          </article>
+        </main>
+        <footer
+          class="wrapper mt-md flex flex-wrap items-center opacity-60 laptop:mt-xxl"
+        >
+          <div class="flex w-full items-center gap-x-gutter">
+            <div class="hidden flex-1 border-t laptop:block">
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/terms"
+                    ><span>Terms</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/privacy"
+                    ><span>Privacy</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/cdn-cgi/l/email-protection#b5c6c0c5c5dac7c1f5d4c5d0d6dadcdb9bd6dad8"
+                    ><span>Support</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/cdn-cgi/l/email-protection#05757760767645647560666a6c6b2b666a68"
+                    ><span>Press Inquiries</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/assets/press/ApeCoin_Press_Kit.zip"
+                    ><span>Press Kit</span>
+                    <!-- -->
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.5 7H6.5M3.5 0V5.6M3.5 5.6L1 3M3.5 5.6L6 3"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tick relative z-50 flex h-nav flex-1 items-center border-t text-xs uppercase laptop:flex-[0_0_25%]"
+            >
+              <div class="relative">
+                <a
+                  class="tick flex h-nav w-lg items-center pr-sm"
+                  href="https://instagram.com/apecoindao"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span class="sr-only">Instagram</span
+                  ><svg
+                    fill="none"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <clipPath id="a">
+                      <path d="m0 0h13.1613v13.1613h-13.1613z"></path>
+                    </clipPath>
+                    <g clip-path="url(#a)">
+                      <path
+                        d="m6.58071 1.18616c1.75703 0 1.96542.00658 2.65967.03839 1.78332.08116 2.61632.92732 2.69752 2.69751.0318.69371.0378.9021.0378 2.65913 0 1.75758-.0065 1.96542-.0378 2.65913-.0817 1.76858-.9125 2.61638-2.69752 2.69748-.69425.0318-.90154.0384-2.65967.0384-1.75704 0-1.96542-.0066-2.65913-.0384-1.78774-.0817-2.61636-.9317-2.69752-2.69803-.03181-.6937-.03839-.90154-.03839-2.65912 0-1.75704.00713-1.96488.03839-2.65913.08171-1.76965.91252-2.61636 2.69752-2.69752.69426-.03126.90209-.03784 2.65913-.03784zm0-1.18616c-1.7872 0-2.01094.00767742-2.71287.0394839-2.38988.1096771-3.718069 1.4356761-3.8277467 3.8277461-.03235485.70248-.04003226.92622-.04003226 2.71342 0 1.78719.00767741 2.01148.03948386 2.71341.1096771 2.38984 1.4356751 3.71804 3.8277451 3.82774.70248.0318.92622.0395 2.71342.0395 1.78719 0 2.01148-.0077 2.71342-.0395 2.38767-.1097 3.71917-1.4357 3.82717-3.82774.0324-.70193.0401-.92622.0401-2.71341 0-1.7872-.0077-2.01094-.0395-2.71288-.1075-2.38767-1.4352-3.71806-3.82723-3.8277377-.70248-.03235488-.92677-.0400323-2.71396-.0400323zm0 3.20148c-1.86617 0-3.37916 1.513-3.37916 3.37917 0 1.86616 1.51299 3.3797 3.37916 3.3797 1.86616 0 3.37916-1.51299 3.37916-3.3797 0-1.86617-1.513-3.37917-3.37916-3.37917zm0 5.57271c-1.21139 0-2.19355-.98161-2.19355-2.19354 0-1.21139.98216-2.19355 2.19355-2.19355 1.21138 0 2.19354.98216 2.19354 2.19355 0 1.21193-.98216 2.19354-2.19354 2.19354zm3.51299-6.49564c-.43654 0-.79025.35371-.79025.78968 0 .43596.35371.78967.79025.78967.4359 0 .7891-.35371.7891-.78967 0-.43597-.3532-.78968-.7891-.78968z"
+                        fill="#8a8a8a"
+                      ></path>
+                    </g></svg
+                ></a>
+              </div>
+              <div class="relative">
+                <a
+                  class="tick flex h-nav w-lg items-center pr-sm"
+                  href="https://twitter.com/apecoin"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span class="sr-only">Twitter</span
+                  ><svg
+                    fill="none"
+                    height="11"
+                    viewBox="0 0 14 11"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m13.1613 1.49865c-.4842.21497-1.0047.35974-1.5508.425.5577-.33397.986-.86316 1.1872-1.493809-.5215.309291-1.0995.534129-1.7148.655319-.4919-.524803-1.19438-.852738-1.9709-.852738-1.74332 0-3.02435 1.626518-2.63061 3.314998-2.24345-.11242-4.233-1.18726-5.565035-2.820901-.707419 1.213581-.366871 2.801161.835195 3.605101-.442-.01426-.858776-.13546-1.222356-.33781-.029613 1.25087.866996 2.42113 2.165576 2.68161-.38003.1031-.79625.12723-1.21961.04607.34329 1.07264 1.34026 1.853 2.52258 1.87493-1.13516.89003-2.56535 1.28762-3.99774 1.11871 1.19494.76607 2.61471 1.21307 4.13923 1.21307 5.01335 0 7.84577-4.23413 7.67467-8.03171.5276-.38113.9855-.85658 1.3474-1.39784z"
+                      fill="#8a8a8a"
+                    ></path></svg
+                ></a>
+              </div>
+              <div class="ml-auto">
+                ©
+                <!-- -->2022<!-- -->
+                Ape Foundation
+              </div>
+            </div>
+          </div>
+          <div class="mb-sm flex-1 text-xs">
+            <span class="">ApeCoin Smart Contract Address: </span
+            ><a
+              href="https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381"
+              target="_blank"
+              rel="noreferrer"
+              >0x4d224452801aced8b2f0aebe155379bb5d594381</a
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/governance",
+        "query": {},
+        "buildId": "O8chYT9EJBLlUGvktwws1",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+    <!-- Cloudflare Pages Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "aec473b181cb478099be1377f54b6ec2"}'
+    ></script>
+    <!-- Cloudflare Pages Analytics -->
+    <script>
+      (function () {
+        var js =
+          "window['__CF$cv$params']={r:'72cdc1793fa2ca80',m:'lGCfcD2Dy_DujtKi0blEMse6M0r0OjntOVY_Jsy_L2k-1658173926-0-AdR0u/CEbr3s24RzzXPTVcQyTuLrwUpaMKpjeYmUIGip5+tQNs+lm5QKXrIhvE/KQ2re4OR0EJA9wA47h89Im/aiGAvmKsXbZdfXeGE7VESZuotCdbAMdFx7RVsZzIU5Ew==',s:[0x049a66e9b5,0xf8855ae0d7],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
+        var _0xh = document.createElement("iframe");
+        _0xh.height = 1;
+        _0xh.width = 1;
+        _0xh.style.border = "none";
+        _0xh.style.visibility = "hidden";
+        document.body.appendChild(_0xh);
+        function handler() {
+          var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+          if (_0xi) {
+            var _0xj = _0xi.createElement("script");
+            _0xj.innerHTML = js;
+            _0xi.getElementsByTagName("head")[0].appendChild(_0xj);
+          }
+        }
+        if (document.readyState !== "loading") {
+          handler();
+        } else if (window.addEventListener) {
+          document.addEventListener("DOMContentLoaded", handler);
+        } else {
+          var prev = document.onreadystatechange || function () {};
+          document.onreadystatechange = function (e) {
+            prev(e);
+            if (document.readyState !== "loading") {
+              document.onreadystatechange = prev;
+              handler();
+            }
+          };
+        }
+      })();
+    </script>
+  </body>
+</html>
