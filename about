@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@apecoin" />
+    <meta name="twitter:creator" content="@apecoin" />
+    <meta property="og:url" content="https://apecoin.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://apecoin.com/assets/share.jpg" />
+    <meta property="og:image:alt" content="ApeCoin" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="ApeCoin" />
+    <meta name="theme-color" content="#000000" />
+    <title>ApeCoin for the Web3 Economy</title>
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="Learn about ApeCoin, the ApeCoin DAO, and the APE Foundation."
+    />
+    <meta property="og:title" content="ApeCoin for the Web3 Economy" />
+    <meta
+      property="og:description"
+      content="Learn about ApeCoin, the ApeCoin DAO, and the APE Foundation."
+    />
+    <meta name="next-head-count" content="19" />
+    <link
+      rel="preload"
+      href="/_next/static/css/da2736187cc2e9e1.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/da2736187cc2e9e1.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="/_next/static/css/9a07929828de4d0b.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/9a07929828de4d0b.css"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-434fefa8f39d8fbc.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-5f4595e5518b5600.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-a054bbf31fb90f6a.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-ab6049f042ffc08a.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/515-ac8cf8dbdcb8abba.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/about-d77ab126e7b3c61b.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_ssgManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/O8chYT9EJBLlUGvktwws1/_middlewareManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body>
+    <div id="__next" data-reactroot="">
+      <video
+        autoplay=""
+        muted=""
+        playsinline=""
+        loop=""
+        class="pointer-events-none fixed top-0 left-0 -z-20 h-screen w-full object-contain"
+      >
+        <source src="/assets/videos/wen.webm" type="video/webm" />
+        <source src="/assets/videos/wen.mp4" type="video/mp4" />
+      </video>
+      <div
+        class="pointer-events-none fixed top-0 left-0 -z-10 h-screen w-full bg-black/75 backdrop-blur transition-opacity duration-1000 opacity-1"
+      ></div>
+      <div id="__layout" style="opacity: 0">
+        <header class="sticky top-0 left-0 z-50 h-header w-full bg-dither">
+          <div
+            class="wrapper flex h-full items-center justify-between gap-x-gutter"
+          >
+            <a
+              class="z-50 -mt-[20px] flex h-nav items-center laptop:-mt-[1px]"
+              href="/"
+              ><img
+                src="/assets/wordmark.svg"
+                alt="ApeCoin"
+                class="w-[96px] laptop:w-[76px]"
+            /></a>
+            <div class="border-t laptop:flex-1">
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px] before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/about"
+                    ><span>About</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/governance"
+                    ><span>Governance</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/claim"
+                    ><span>Claim</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://snapshot.org/#/apecoin.eth"
+                    ><span>Proposals</span>
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 0.5H0M6.5 0.5V7M6.5 0.5L0.382353 6.61765"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://forum.apecoin.com"
+                    ><span>Discussion</span>
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.5 0.5H0M6.5 0.5V7M6.5 0.5L0.382353 6.61765"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative z-50 hidden flex-1 border-t text-xs uppercase laptop:block laptop:flex-[0_0_25%]"
+            >
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/exchanges"
+                    ><span>Buy/Sell</span>
+                    <!-- -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <main id="__main" style="opacity: 0">
+          <div class="wrapper mt-sm laptop:pt-xl">
+            <h1
+              id="ape-coin-is-for-the-web3-economy"
+              class="mx-auto mb-md w-full max-w-2xl text-2xl font-bold uppercase tablet:text-3xl"
+            >
+              <span class="relative">ApeCoin is for the web3 economy.</span>
+            </h1>
+            <p
+              class="mx-auto mb-md mt-md w-full max-w-2xl text-lg tablet:text-xl"
+            >
+              Culture has found new expression in web3 through art, gaming,
+              entertainment, and events. The possibilities for blockchain’s
+              impact on culture are so endless that they can’t possibly all be
+              predicted yet. APE is a token made to support what’s next,
+              controlled and built on by the community. It will serve as a
+              decentralized protocol layer for community-led initiatives that
+              drive culture forward into the metaverse.
+            </p>
+            <h2
+              id="the-ape-foundation"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              The APE Foundation
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The APE Foundation is the steward of ApeCoin. It is not an
+              overseer, but the base layer on which ApeCoin holders in the
+              ApeCoin DAO can build.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The Foundation facilitates decentralized and community-led
+              governance and is designed to become more decentralized over time.
+              It is tasked with administering the decisions of the ApeCoin DAO,
+              and is responsible for day-to-day administration, bookkeeping,
+              project management, and other tasks that ensure the DAO
+              community’s ideas have the support they need to become a reality.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The goal of the APE Foundation is to steward the growth and
+              development of the APE ecosystem in a fair and inclusive way. It
+              utilizes the Ecosystem Fund, which is controlled by a multisig
+              wallet, to pay its expenses as directed by the ApeCoin DAO and
+              provides an infrastructure for ApeCoin holders to collaborate
+              through open and permissionless
+              <a class="border-b" href="/governance">governance</a> processes.
+            </p>
+            <h2
+              id="the-dao"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              The DAO
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              ApeCoin DAO exists because decentralized governance is critical to
+              building and managing a globally dispersed community—and therefore
+              critical to the success of the APE ecosystem.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The APE Improvement Proposal Process (see
+              <a class="border-b" href="/governance">Governance</a>) will allow
+              ApeCoin DAO members to make decisions regarding Ecosystem Fund
+              allocations, governance rules, projects, partnerships, and beyond.
+              ApeCoin DAO membership is open to all ApeCoin holders.
+            </p>
+            <h2
+              id="the-board"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              The Board
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              A special council on the APE Foundation (the DAO’s “Board”)
+              provides, at the behest of the ApeCoin DAO members, oversight of
+              the Foundation administrators. The purpose of the Board is to
+              administer DAO proposals and serve the vision of the community. It
+              meets on proposals requiring administrative review under ApeCoin
+              DAO rules. The initial Board serves a term of six months, after
+              which DAO members will vote annually on Board members.
+            </p>
+            <picture class="my-xl mx-auto block w-full max-w-4xl"
+              ><source
+                srcset="/assets/ape-foundation-board-mobile.png"
+                media="(max-width: 768px)" />
+              <img
+                alt="The Apecoin Board"
+                src="/assets/ape-foundation-board.png"
+            /></picture>
+            <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
+              <li class="mb-xs pl-sm">
+                <strong>Alexis Ohanian</strong> <br />Co-founder of Reddit;
+                General Partner &amp; Founder of Seven Seven Six
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>Amy Wu</strong> <br />Head of Ventures &amp; Gaming at
+                FTX
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>Maaria Bajwa</strong> <br />Principal at Sound Ventures
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>Yat Siu</strong> <br />Co-founder &amp; Chairman of
+                Animoca Brands
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>Dean Steinbeck</strong> <br />President &amp; General
+                Counsel at Horizen Labs
+              </li>
+            </ul>
+            <h2
+              id="ape-coin-protocol"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              ApeCoin Protocol
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              ApeCoin is an ERC-20 governance and utility token used within the
+              APE ecosystem to empower a decentralized community building at the
+              forefront of web3.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              As the open-source protocol layer of the ecosystem, ApeCoin serves
+              several purposes:
+            </p>
+            <table class="mx-auto mt-lg w-full max-w-2xl table-fixed">
+              <thead>
+                <tr class="flex border-b border-white/10">
+                  <th
+                    class="flex flex-1 py-sm pr-gutter text-left text-sm font-semibold uppercase last-of-type:pr-0"
+                  ></th>
+                  <th
+                    class="flex flex-1 py-sm pr-gutter text-left text-sm font-semibold uppercase last-of-type:pr-0"
+                  ></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Governance
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    ApeCoin is the ecosystem’s governance token, allowing
+                    ApeCoin holders to participate in ApeCoin DAO.
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Unification of Spend
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    ApeCoin is the ecosystem’s utility token, giving all its
+                    participants a shared and open currency that can be used
+                    without centralized intermediaries.
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Access
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    ApeCoin provides access to certain parts of the ecosystem
+                    that are otherwise unavailable, such as exclusive games,
+                    merch, events, and services.
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Incentivization
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    ApeCoin is a tool for third-party developers to participate
+                    in the ecosystem by incorporating APE into services, games,
+                    and other projects.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h2
+              id="ape-coin-allocation"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              ApeCoin Allocation
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The total supply of ApeCoin is permanently fixed at 1 billion
+              tokens. No minting capability is exposed through the contract
+              interface, thus the total supply will never increase. Similarly,
+              the contract interface does not expose any token burning
+              capability, so the total supply will never decrease.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              In line with the standard practice, a portion of the tokens for
+              contributors to the project will be initially locked. Locked
+              tokens will be unlocked over a period of 48 months, in accordance
+              with the predetermined unlock schedule in the chart below,
+              starting on launch day, March 17, 2022.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              ApeCoin will be distributed among four main groups, as detailed in
+              the chart below. Wallets holding tokens alloted to the DAO
+              treasury and resources can be viewed
+              <a class="border-b" href="/treasury-wallets">here</a>.
+            </p>
+            <picture class="my-xl mx-auto block w-full max-w-4xl"
+              ><source
+                srcset="/assets/apecoin-allocation-mobile.png"
+                media="(max-width: 768px)" />
+              <img
+                alt="ApeCoin allocation"
+                src="/assets/apecoin-allocation.png"
+            /></picture>
+            <section class="mx-auto max-w-4xl">
+              <div
+                class="flex flex-col tablet:flex-row border-b border-white/10"
+              >
+                <div class="flex-[0_0_50%] mr-gutter py-sm">
+                  <div class="text-xl font-semibold">62%</div>
+                  <h3 class="uppercase text-base font-semibold mb-xs">
+                    Ecosystem Fund
+                  </h3>
+                  <div class="text-xs max-w-sm">
+                    BAYC/MAYC NFT holders and treasury/resources
+                  </div>
+                </div>
+                <div class="text-sm py-sm">
+                  <div>150,000,000 tokens to BAYC/MAYC</div>
+                  <div class="italic text-xs mb-sm text-white/50">
+                    All unlocked for claim at launch
+                  </div>
+                  <div>470,000,000 tokens to DAO treasury and resources</div>
+                  <div class="italic text-xs mb-sm text-white/50">
+                    117,500,000 unlocked at launch, then 7,343,750 unlocked per
+                    month for 48 months
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col tablet:flex-row border-b border-white/10"
+              >
+                <div class="flex-[0_0_50%] mr-gutter py-sm">
+                  <div class="text-xl font-semibold">16%<sup>*</sup></div>
+                  <h3 class="uppercase text-base font-semibold mb-xs">
+                    Yuga Labs + Charity
+                  </h3>
+                  <div class="text-xs max-w-sm">
+                    The company behind BAYC and continuing contributor
+                  </div>
+                  <div class="text-xs text-white/50 italic max-w-sm">
+                    *6.25% worth of Yuga Labs holdings are being donated to the
+                    Jane Goodall Legacy Foundation.
+                  </div>
+                </div>
+                <div class="text-sm py-sm">
+                  <div>150,000,000 tokens to Yuga Labs</div>
+                  <div class="italic text-xs mb-sm text-white/50">
+                    Initial lock-up 12 months, then 4,166,666.67 unlocked per
+                    month for 36 months
+                  </div>
+                  <div>
+                    10,000,000 tokens or equal value donated to the Jane Goodall
+                    Legacy Foundation
+                  </div>
+                  <div class="italic text-xs text-white/50">
+                    Initial lock-up 12 months, then 277,777.78 tokens unlocked
+                    per month for 36 months
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col tablet:flex-row border-b border-white/10"
+              >
+                <div class="flex-[0_0_50%] mr-gutter py-sm">
+                  <div class="text-xl font-semibold">14%</div>
+                  <h3 class="uppercase text-base font-semibold mb-xs">
+                    Launch Contributors
+                  </h3>
+                  <div class="text-xs max-w-sm">
+                    The companies and people that helped make this project a
+                    reality
+                  </div>
+                </div>
+                <div class="text-sm py-sm">
+                  <div>
+                    140,000,000 tokens to launch contributors. Lockup schedules
+                    vary by contributor but fall into one of the following:
+                  </div>
+                  <div class="italic text-xs text-white/50">
+                    • 10,000,000 tokens upfront, 25,000,000 after 6 months,
+                    25,000,000 after 12 months, and 25,000,000 after 18 months
+                  </div>
+                  <div class="italic text-xs text-white/50">
+                    • Initial lock-up for 12 months, then 757,575.76 unlocked
+                    per month for 33 months
+                  </div>
+                  <div class="italic text-xs text-white/50">
+                    • Initial lock-up for 12 months, then 833,333.33 unlocked
+                    per month for 36 months
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col tablet:flex-row border-b border-white/10"
+              >
+                <div class="flex-[0_0_50%] mr-gutter py-sm">
+                  <div class="text-xl font-semibold">8%</div>
+                  <h3 class="uppercase text-base font-semibold mb-xs">
+                    BAYC Founders
+                  </h3>
+                  <div class="text-xs max-w-sm">
+                    The ones who put the Ape in ApeCoin, the four founders of
+                    Yuga Labs and BAYC
+                  </div>
+                </div>
+                <div class="text-sm py-sm">
+                  <div>80,000,000 tokens to founders of Yuga Labs</div>
+                  <div class="italic text-xs text-white/50">
+                    Initial lock-up for 12 months, then 2,222,222.22 unlocked
+                    per month for 36 months
+                  </div>
+                </div>
+              </div>
+            </section>
+            <h2
+              id="ape-coin-claiming-for-bayc-and-mayc-holders"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              ApeCoin Claiming for BAYC and MAYC Holders
+            </h2>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              Tokens will be allocated to BAYC/MAYC members via the
+              <a class="border-b" href="/claim">claim page</a> starting on March
+              17, 2022 at 8:30AM ET.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              To ensure a fair launch of ApeCoin to BAYC and MAYC NFT holders,
+              the allocation is informed by the difference in floor price
+              between each collection of NFTs, roughly the month prior to the
+              token claim launch (02/07/22 to 03/08/22). Each Bored Ape or
+              Mutant Ape NFT that has a companion Bored Ape Kennel Club NFT will
+              be able to claim the amount of ApeCoin specified below.
+            </p>
+            <table class="mx-auto mt-lg w-full max-w-2xl table-fixed">
+              <thead>
+                <tr class="flex border-b border-white/10">
+                  <th
+                    class="flex flex-1 py-sm pr-gutter text-left text-sm font-semibold uppercase last-of-type:pr-0"
+                  >
+                    NFT
+                  </th>
+                  <th
+                    class="flex flex-1 py-sm pr-gutter text-left text-sm font-semibold uppercase last-of-type:pr-0"
+                  >
+                    ApeCoin Allocated Per NFT or NFT Pair
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Bored Ape only
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    10,094 tokens
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Mutant Ape only
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    2,042 tokens
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Bored Ape + Kennel Club
+                    <span class="block text-xs"
+                      >(token IDs do not need to match)</span
+                    >
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    10,950 tokens
+                  </td>
+                </tr>
+                <tr class="flex border-b border-white/10">
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    Mutant Ape + Kennel Club
+                    <span class="block text-xs"
+                      >(token IDs do not need to match)</span
+                    >
+                  </td>
+                  <td
+                    class="flex-1 items-start py-sm pr-gutter text-sm last-of-type:pr-0"
+                  >
+                    2,898 tokens
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="mx-auto mt-md mb-lg w-full max-w-2xl text-xs italic text-white/50"
+            >
+              <li class="mb-xs pl-sm">
+                There is no distinction between Mutant Ape types for the claim.
+              </li>
+              <li class="mb-xs pl-sm">
+                Ape + Kennel token IDs do not need to match to claim, nor does
+                having the original pairing entitle any extra tokens.
+              </li>
+              <li class="mb-xs pl-sm">
+                This is a one-time claim that will identify all eligible NFTs in
+                your wallet, in the order that they appear. There will not be an
+                option to deselect an eligible NFT if it is present in your
+                wallet. If you wish to claim for one of your NFTs but not
+                another, you will need to move them to separate wallets.
+              </li>
+              <li class="mb-xs pl-sm">
+                A Bored Ape or Mutant Ape that has claimed its tokens cannot be
+                used later to claim tokens for an accompanying Kennel Club. All
+                paired NFTs must be claimed together at the same time.
+              </li>
+              <li class="mb-xs pl-sm">
+                Unused Bored Ape Chemistry Club serums do not qualify for token
+                claim.
+              </li>
+              <li class="mb-xs pl-sm">
+                The airdrop claim tokens associated with any NFT can only be
+                claimed once. In order to check whether a certain BAYC, MAYC (or
+                companion BAKC) has claimed its tokens, use the below checker.
+              </li>
+              <li class="mb-xs pl-sm">
+                There will be Ethereum network gas fees incurred to claim
+                ApeCoin.
+              </li>
+            </p>
+            <h3
+              id="how-it-works"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              How it works
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              15% of the total ApeCoin token supply allocated to BAYC/MAYC
+              holders for claim will be transferred to a smart contract.
+              Ownership of the contract will be transferred to a multisig
+              wallet, which will be responsible for:
+            </p>
+            <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
+              <li class="mb-xs pl-sm">
+                initiating the BAYC/MAYC/BAKC claim period
+              </li>
+              <li class="mb-xs pl-sm">
+                ending the claim period 90 days after launch
+              </li>
+              <li class="mb-xs pl-sm">
+                taking ownership of all unclaimed APE tokens at the end of the
+                claim period
+              </li>
+              <li class="mb-xs pl-sm">
+                transferring these unclaimed tokens to the Coinbase Custody
+                wallets that constitute the Ecosystem Fund
+              </li>
+            </ul>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The airdrop claim tokens associated with any NFT can only be
+              claimed once. In order to check whether a certain BAYC, MAYC (or
+              BAYC or MAYC with a companion BAKC) has claimed its tokens, use
+              the NFT checker:
+            </p>
+            <div class="mx-auto text-center my-lg">
+              <a class="btn" href="/nft-checker">Use the NFT Checker</a>
+            </div>
+            <h3
+              id="ape-foundation-ip"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              APE Foundation IP
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The APE Foundation was gifted a 1 of 1 NFT by Yuga Labs, the
+              creators of Bored Ape Yacht Club. You can see it
+              <a
+                class="border-b"
+                href="https://opensea.io/assets/0x635ddfed0d0a86f5b330c8898d78fc222d6e5ff5/0"
+                >here</a
+              >. Yuga Labs has conveyed all rights and privileges to this NFT
+              and its underlying artwork to the APE Foundation. The ApeCoin DAO
+              can decide how this intellectual property is used.
+            </p>
+            <h2
+              id="faq"
+              class="mx-auto mt-xl mb-md w-full max-w-2xl text-xl font-bold uppercase tablet:text-2xl"
+            >
+              FAQ
+            </h2>
+            <h3
+              id="who-what-are-the-different-entities-and-names-and-how-do-they-relate-to-each-other"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              Who/what are the different entities and names, and how do they
+              relate to each other?
+            </h3>
+            <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
+              <li class="mb-xs pl-sm">
+                <strong>Yuga Labs</strong> - Yuga Labs is a web3 company best
+                known for the creation of the Bored Ape Yacht Club. It will be a
+                community member in the ApeCoin DAO and will adopt APE as the
+                primary token across new projects.
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>BAYC</strong> - The Bored Ape Yacht Club is a collection
+                of digital art crafted into NFTs where the token itself doubles
+                as a membership to a swamp club for apes.
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>APE Foundation</strong> - The APE Foundation is the
+                steward of ApeCoin, a legal entity that exists to administer the
+                decisions of the ApeCoin DAO.
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>ApeCoin DAO</strong> - A decentralized governance
+                organization that will make decisions regarding Ecosystem Fund
+                allocations, governance rules, projects, partnerships, and more.
+                ApeCoin DAO membership is open to all ApeCoin holders.
+              </li>
+              <li class="mb-xs pl-sm">
+                <strong>APE</strong> - The symbol for ApeCoin token.
+              </li>
+            </ul>
+            <h3
+              id="does-the-foundation-control-ape-coin-and-or-the-ape-coin-dao-if-not-what-role-do-they-play"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              Does the Foundation control ApeCoin and/or the ApeCoin DAO? If
+              not, what role do they play?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The Foundation does not control ApeCoin or the ApeCoin DAO. The
+              Foundation consists of an administrative Board, which exists
+              solely to oversee the decisions of the ApeCoin DAO, as well as a
+              third party project management team in charge of ensuring ApeCoin
+              DAO decisions are implemented.
+            </p>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              A decentralized autonomous organization (DAO) is the best way to
+              give every member of the community a vote on important decisions
+              whether it&#x27;s a technical upgrade or a decision to fund a new
+              idea. However, the reality is that today a DAO cannot sign a lease
+              or hire people or make merch or whatever the community decides to
+              do on its own. The Foundation is responsible for the day-to-day
+              administration, bookkeeping, project management, and other tasks
+              that ensure the ApeCoin DAO community’s ideas have the support
+              they need to become a reality.
+            </p>
+            <h3
+              id="how-was-the-foundation-board-selected"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              How was the Foundation Board selected?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              Certain members of the community that have strong operational
+              experience were consulted on how to best structure the ApeCoin
+              DAO. Several of these members voiced their willingness to join the
+              Board to oversee the decisions of the community and are committed
+              to upholding and furthering the decentralization of the ApeCoin
+              DAO. The initial Board will serve 6 months.
+            </p>
+            <h3
+              id="will-there-be-a-chance-for-other-individuals-to-join-the-board"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              Will there be a chance for other individuals to join the Board?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              Yes. After the initial 6-month term, DAO members will vote
+              annually to keep existing or appoint new Board members. ApeCoin
+              token holders (the DAO members) can also remove or replace a Board
+              member at any time with a majority “In favor” vote.
+            </p>
+            <h3
+              id="what-role-does-yuga-labs-play-in-all-of-this"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              What role does Yuga Labs play in all of this?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              Yuga Labs is a contributor to the APE Ecosystem and will assist in
+              the creation of products and experiences for the ecosystem as a
+              whole.
+            </p>
+            <h3
+              id="what-will-the-charitable-donation-to-the-jane-goodall-legacy-foundation-be-used-for"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              What will the charitable donation to the Jane Goodall Legacy
+              Foundation be used for?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The donation will help secure an invested endowment for the JGLF,
+              helping to fund projects including:
+            </p>
+            <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
+              <li class="mb-xs pl-sm">
+                Long-term research at the Gombe Stream Research Center in
+                Western Tanzania (which been conducted continuously for more
+                than six decades)
+              </li>
+              <li class="mb-xs pl-sm">
+                Lake Tanganyika Catchment Reforestation and Education (TACARE),
+                community-centered conservation that preserves chimp habitats in
+                six African countries
+              </li>
+              <li class="mb-xs pl-sm">
+                Conservation science that explores, innovates, and discovers new
+                solutions, technologies and tools to protect the environment and
+                wildlife
+              </li>
+              <li class="mb-xs pl-sm">
+                Roots &amp; Shoots, a program active in 60+ countries that
+                empowers young people (kindergarten through university) to
+                become involved in hands-on projects for people, animals, and
+                the environment
+              </li>
+            </ul>
+            <h3
+              id="how-were-the-token-allotments-for-bayc-mayc-and-bakc-nft-holders-calculated"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              How were the token allotments for BAYC, MAYC, and BAKC NFT holders
+              calculated?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              The allotment of ApeCoin to NFT holders was a ratio based on the
+              average floor price of BAYC and MAYC from roughly the month prior
+              to launch (02/07/22 to 03/08/22).
+            </p>
+            <h3
+              id="why-don-t-those-with-only-bakc-nf-ts-get-a-token-allotment"
+              class="mx-auto mt-lg mb-sm w-full max-w-2xl text-lg font-semibold uppercase"
+            >
+              Why don’t those with only BAKC NFTs get a token allotment?
+            </h3>
+            <p class="mx-auto mb-sm w-full max-w-2xl text-base">
+              BAKC NFTs are companion NFTs to BAYC and MAYC, meaning they don’t
+              have utility on their own, only when paired with a BAYC or MAYC.
+            </p>
+          </div>
+        </main>
+        <footer
+          class="wrapper mt-md flex flex-wrap items-center opacity-60 laptop:mt-xxl"
+        >
+          <div class="flex w-full items-center gap-x-gutter">
+            <div class="hidden flex-1 border-t laptop:block">
+              <ul class="flex overflow-hidden">
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/terms"
+                    ><span>Terms</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/privacy"
+                    ><span>Privacy</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/cdn-cgi/l/email-protection#fc8f898c8c938e88bc9d8c999f939592d29f9391"
+                    ><span>Support</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/cdn-cgi/l/email-protection#02727067717142637267616d6b6c2c616d6f"
+                    ><span>Press Inquiries</span>
+                    <!-- -->
+                  </a>
+                </li>
+                <li
+                  class="tick group relative flex h-nav text-xs uppercase hover:before:h-[12px]"
+                >
+                  <a
+                    class="-ml-px flex items-center pr-lg"
+                    target="_self"
+                    rel=""
+                    href="/assets/press/ApeCoin_Press_Kit.zip"
+                    ><span>Press Kit</span>
+                    <!-- -->
+                    <svg
+                      class="ml-[6px]"
+                      width="7"
+                      height="8"
+                      viewBox="0 0 7 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.5 7H6.5M3.5 0V5.6M3.5 5.6L1 3M3.5 5.6L6 3"
+                        stroke="#E5E5E5"
+                        stroke-width="0.7"
+                      ></path></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tick relative z-50 flex h-nav flex-1 items-center border-t text-xs uppercase laptop:flex-[0_0_25%]"
+            >
+              <div class="relative">
+                <a
+                  class="tick flex h-nav w-lg items-center pr-sm"
+                  href="https://instagram.com/apecoindao"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span class="sr-only">Instagram</span
+                  ><svg
+                    fill="none"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <clipPath id="a">
+                      <path d="m0 0h13.1613v13.1613h-13.1613z"></path>
+                    </clipPath>
+                    <g clip-path="url(#a)">
+                      <path
+                        d="m6.58071 1.18616c1.75703 0 1.96542.00658 2.65967.03839 1.78332.08116 2.61632.92732 2.69752 2.69751.0318.69371.0378.9021.0378 2.65913 0 1.75758-.0065 1.96542-.0378 2.65913-.0817 1.76858-.9125 2.61638-2.69752 2.69748-.69425.0318-.90154.0384-2.65967.0384-1.75704 0-1.96542-.0066-2.65913-.0384-1.78774-.0817-2.61636-.9317-2.69752-2.69803-.03181-.6937-.03839-.90154-.03839-2.65912 0-1.75704.00713-1.96488.03839-2.65913.08171-1.76965.91252-2.61636 2.69752-2.69752.69426-.03126.90209-.03784 2.65913-.03784zm0-1.18616c-1.7872 0-2.01094.00767742-2.71287.0394839-2.38988.1096771-3.718069 1.4356761-3.8277467 3.8277461-.03235485.70248-.04003226.92622-.04003226 2.71342 0 1.78719.00767741 2.01148.03948386 2.71341.1096771 2.38984 1.4356751 3.71804 3.8277451 3.82774.70248.0318.92622.0395 2.71342.0395 1.78719 0 2.01148-.0077 2.71342-.0395 2.38767-.1097 3.71917-1.4357 3.82717-3.82774.0324-.70193.0401-.92622.0401-2.71341 0-1.7872-.0077-2.01094-.0395-2.71288-.1075-2.38767-1.4352-3.71806-3.82723-3.8277377-.70248-.03235488-.92677-.0400323-2.71396-.0400323zm0 3.20148c-1.86617 0-3.37916 1.513-3.37916 3.37917 0 1.86616 1.51299 3.3797 3.37916 3.3797 1.86616 0 3.37916-1.51299 3.37916-3.3797 0-1.86617-1.513-3.37917-3.37916-3.37917zm0 5.57271c-1.21139 0-2.19355-.98161-2.19355-2.19354 0-1.21139.98216-2.19355 2.19355-2.19355 1.21138 0 2.19354.98216 2.19354 2.19355 0 1.21193-.98216 2.19354-2.19354 2.19354zm3.51299-6.49564c-.43654 0-.79025.35371-.79025.78968 0 .43596.35371.78967.79025.78967.4359 0 .7891-.35371.7891-.78967 0-.43597-.3532-.78968-.7891-.78968z"
+                        fill="#8a8a8a"
+                      ></path>
+                    </g></svg
+                ></a>
+              </div>
+              <div class="relative">
+                <a
+                  class="tick flex h-nav w-lg items-center pr-sm"
+                  href="https://twitter.com/apecoin"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span class="sr-only">Twitter</span
+                  ><svg
+                    fill="none"
+                    height="11"
+                    viewBox="0 0 14 11"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m13.1613 1.49865c-.4842.21497-1.0047.35974-1.5508.425.5577-.33397.986-.86316 1.1872-1.493809-.5215.309291-1.0995.534129-1.7148.655319-.4919-.524803-1.19438-.852738-1.9709-.852738-1.74332 0-3.02435 1.626518-2.63061 3.314998-2.24345-.11242-4.233-1.18726-5.565035-2.820901-.707419 1.213581-.366871 2.801161.835195 3.605101-.442-.01426-.858776-.13546-1.222356-.33781-.029613 1.25087.866996 2.42113 2.165576 2.68161-.38003.1031-.79625.12723-1.21961.04607.34329 1.07264 1.34026 1.853 2.52258 1.87493-1.13516.89003-2.56535 1.28762-3.99774 1.11871 1.19494.76607 2.61471 1.21307 4.13923 1.21307 5.01335 0 7.84577-4.23413 7.67467-8.03171.5276-.38113.9855-.85658 1.3474-1.39784z"
+                      fill="#8a8a8a"
+                    ></path></svg
+                ></a>
+              </div>
+              <div class="ml-auto">
+                ©
+                <!-- -->2022<!-- -->
+                Ape Foundation
+              </div>
+            </div>
+          </div>
+          <div class="mb-sm flex-1 text-xs">
+            <span class="">ApeCoin Smart Contract Address: </span
+            ><a
+              href="https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381"
+              target="_blank"
+              rel="noreferrer"
+              >0x4d224452801aced8b2f0aebe155379bb5d594381</a
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/about",
+        "query": {},
+        "buildId": "O8chYT9EJBLlUGvktwws1",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+    <!-- Cloudflare Pages Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "aec473b181cb478099be1377f54b6ec2"}'
+    ></script>
+    <!-- Cloudflare Pages Analytics -->
+    <script>
+      (function () {
+        var js =
+          "window['__CF$cv$params']={r:'72cdbc914ce3ca80',m:'lHYE0m3RTJF.Zh.SSRK9qjZr4ZB1uKkcPDbtid5Zsss-1658173725-0-ASpCzhYqFpCjfcXbKA2iKV+CQ2BQCw+Fg6F/K+xEH1jYntOlyTYG6YC11KphrSZi8xfOjIzI3988Ii5BnMWjtPwoZtOPLk8bqd7y+GmEXGFjIxOzqHyA7TlxZUZ9+MmQLg==',s:[0x5a41316e90,0xc465ea5d6f],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
+        var _0xh = document.createElement("iframe");
+        _0xh.height = 1;
+        _0xh.width = 1;
+        _0xh.style.border = "none";
+        _0xh.style.visibility = "hidden";
+        document.body.appendChild(_0xh);
+        function handler() {
+          var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+          if (_0xi) {
+            var _0xj = _0xi.createElement("script");
+            _0xj.innerHTML = js;
+            _0xi.getElementsByTagName("head")[0].appendChild(_0xj);
+          }
+        }
+        if (document.readyState !== "loading") {
+          handler();
+        } else if (window.addEventListener) {
+          document.addEventListener("DOMContentLoaded", handler);
+        } else {
+          var prev = document.onreadystatechange || function () {};
+          document.onreadystatechange = function (e) {
+            prev(e);
+            if (document.readyState !== "loading") {
+              document.onreadystatechange = prev;
+              handler();
+            }
+          };
+        }
+      })();
+    </script>
+  </body>
+</html>
